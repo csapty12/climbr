@@ -1,0 +1,21 @@
+{
+  "name": "climbr-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm db:up && echo 'Waiting for DB...' && sleep 5 && pnpm seed && concurrently --kill-others --hide API -n \"API\" \"pnpm dev:api\"",
+    "dev:api": "pnpm --filter @climbr/api dev",
+    "dev:mobile": "pnpm --filter @climbr/mobile start",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:reset": "pnpm --filter @climbr/api prisma migrate reset --force",
+    "prisma:migrate": "pnpm --filter @climbr/api prisma migrate dev",
+    "prisma:studio": "pnpm --filter @climbr/api prisma studio",
+    "seed": "pnpm --filter @climbr/api seed",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r exec tsc --noEmit",
+    "lint": "pnpm -r exec eslint ."
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

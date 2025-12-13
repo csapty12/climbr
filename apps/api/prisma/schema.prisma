@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Exercise {
+  id                  String   @id @default(uuid())
+  slug                String   @unique
+  name                String
+  summary             String
+  category            String
+  difficulty          String
+  equipment           String[]
+  riskFlags           String[]
+  instructionsMarkdown String
+  cues                String[]
+  commonMistakes      String[]
+  protocolTags        String[]
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+  media               ExerciseMedia[]
+
+  @@index([updatedAt(sort: Desc), id(sort: Desc)])
+}
+
+model ExerciseMedia {
+  id        String   @id @default(uuid())
+  exerciseId String
+  type      String   // image, video
+  url       String
+  alt       String
+  sortOrder Int      @default(0)
+  exercise  Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  @@index([exerciseId])
+}

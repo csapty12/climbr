@@ -1,0 +1,70 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build
+dist
+build
+.expo
+.next
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+
+# Expo
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Android
+android/
+# If you are not using standard Expo prebuild (CNG), you might want to un-ignore android/ios
+# But for typical Expo managed workflow or CNG, ignoring them is cleaner until you eject/prebuild locally.
+# However, many people commit android/ios for "Bare" workflow.
+# Given this is likely Expo CNG or Managed until specified, we'll confirm with user or stick to standard.
+# Actually, usually for Expo one DOES NOT commit android/ios folders if using Prebuild.
+# If they are present, we should probably check if they are generated.
+# Let's assume standard Expo recommended gitignore.
+
+# iOS
+ios/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.gungur
+
+# Fastify/API
+apps/api/dist
+
+# Brain
+.gemini/

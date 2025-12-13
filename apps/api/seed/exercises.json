@@ -1,0 +1,1648 @@
+[
+    {
+        "slug": "hangboard-repeaters-7-3",
+        "name": "Hangboard Repeaters (7s on / 3s off)",
+        "summary": "Classic repeaters for finger endurance/power endurance.",
+        "category": "hangboard",
+        "difficulty": "intermediate",
+        "equipment": [
+            "hangboard",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "repeaters"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/hangboard-repeaters-7-3.png",
+                "alt": "Hangboard repeaters",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "hangboard-repeaters-6-4",
+        "name": "Hangboard Repeaters (6s on / 4s off)",
+        "summary": "Repeaters variant with slightly more recovery per rep.",
+        "category": "hangboard",
+        "difficulty": "intermediate",
+        "equipment": [
+            "hangboard",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "repeaters"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/hangboard-repeaters-6-4.png",
+                "alt": "Hangboard repeaters 6/4",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "hangboard-repeaters-10-5",
+        "name": "Hangboard Repeaters (10s on / 5s off)",
+        "summary": "Longer time under tension repeaters; manage intensity carefully.",
+        "category": "hangboard",
+        "difficulty": "advanced",
+        "equipment": [
+            "hangboard",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "repeaters"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/hangboard-repeaters-10-5.png",
+                "alt": "Hangboard repeaters 10/5",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "max-hang-10s-open-hand",
+        "name": "Max Hang (10s) — Open Hand",
+        "summary": "Max strength finger hang using open-hand grip.",
+        "category": "hangboard",
+        "difficulty": "intermediate",
+        "equipment": [
+            "hangboard",
+            "timer",
+            "weights",
+            "pulley_optional"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "max_hangs"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/max-hang-10s-open-hand.png",
+                "alt": "Open hand max hang",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "max-hang-10s-half-crimp",
+        "name": "Max Hang (10s) — Half Crimp",
+        "summary": "Max strength finger hang using half-crimp grip.",
+        "category": "hangboard",
+        "difficulty": "advanced",
+        "equipment": [
+            "hangboard",
+            "timer",
+            "weights",
+            "pulley_optional"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "max_hangs"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/max-hang-10s-half-crimp.png",
+                "alt": "Half crimp max hang",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "density-hangs-30-30",
+        "name": "Density Hangs (30s on / 30s off)",
+        "summary": "Sub-max finger density work; control intensity and volume.",
+        "category": "hangboard",
+        "difficulty": "intermediate",
+        "equipment": [
+            "hangboard",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "density_hangs"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/density-hangs-30-30.png",
+                "alt": "Density hangs",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "assisted-one-arm-hangs",
+        "name": "Assisted One-Arm Hangs",
+        "summary": "Progression toward one-arm hanging using assistance (pulley/band).",
+        "category": "hangboard",
+        "difficulty": "advanced",
+        "equipment": [
+            "hangboard",
+            "pulley_optional",
+            "band_optional",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_finger_load",
+            "high_elbow_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "max_hangs",
+            "assisted"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/assisted-one-arm-hangs.png",
+                "alt": "Assisted one-arm hangs",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "recruitment-pulls-hangboard",
+        "name": "Recruitment Pulls (Hangboard)",
+        "summary": "Short explosive pulls to recruit high-threshold motor units (low volume).",
+        "category": "hangboard",
+        "difficulty": "advanced",
+        "equipment": [
+            "hangboard",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "recruitment"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/recruitment-pulls-hangboard.png",
+                "alt": "Recruitment pulls",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "foot-on-campus-assisted-hangs",
+        "name": "Foot-on-Campus Assisted Hangs",
+        "summary": "Technique-safe way to scale intensity using feet on rungs/box.",
+        "category": "hangboard",
+        "difficulty": "beginner",
+        "equipment": [
+            "hangboard",
+            "box_optional",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "repeaters",
+            "assisted"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/foot-on-campus-assisted-hangs.png",
+                "alt": "Assisted hangs with feet",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "finger-extensor-band-opens",
+        "name": "Finger Extensor Band Opens",
+        "summary": "Finger extensor work to balance gripping volume.",
+        "category": "antagonist",
+        "difficulty": "beginner",
+        "equipment": [
+            "finger_bands"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "prehab"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/finger-extensor-band-opens.png",
+                "alt": "Finger extensor bands",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "weighted-pull-ups",
+        "name": "Weighted Pull-Ups",
+        "summary": "Upper-body pulling strength base for climbing.",
+        "category": "strength",
+        "difficulty": "intermediate",
+        "equipment": [
+            "pullup_bar",
+            "weights"
+        ],
+        "riskFlags": [
+            "high_elbow_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/weighted-pull-ups.png",
+                "alt": "Weighted pull-ups",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "bodyweight-pull-ups",
+        "name": "Pull-Ups (Bodyweight)",
+        "summary": "Fundamental pulling strength; strict reps.",
+        "category": "strength",
+        "difficulty": "beginner",
+        "equipment": [
+            "pullup_bar"
+        ],
+        "riskFlags": [
+            "high_elbow_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/bodyweight-pull-ups.png",
+                "alt": "Pull-ups",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "scapular-pull-ups",
+        "name": "Scapular Pull-Ups",
+        "summary": "Scap control for shoulder health and pulling efficiency.",
+        "category": "strength",
+        "difficulty": "beginner",
+        "equipment": [
+            "pullup_bar"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "prehab"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/scapular-pull-ups.png",
+                "alt": "Scapular pull-ups",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "lock-off-holds-90",
+        "name": "Lock-Off Holds (90°)",
+        "summary": "Isometric lock-offs for control on steep terrain.",
+        "category": "strength",
+        "difficulty": "intermediate",
+        "equipment": [
+            "pullup_bar",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_elbow_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "isometrics"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/lock-off-holds-90.png",
+                "alt": "90 degree lock-off",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "lock-off-holds-120",
+        "name": "Lock-Off Holds (120°)",
+        "summary": "Longer lever lock-offs; scalable difficulty.",
+        "category": "strength",
+        "difficulty": "intermediate",
+        "equipment": [
+            "pullup_bar",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_elbow_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "isometrics"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/lock-off-holds-120.png",
+                "alt": "120 degree lock-off",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "towel-pull-ups",
+        "name": "Towel Pull-Ups",
+        "summary": "Grip + pulling strength; use carefully for skin/elbows.",
+        "category": "strength",
+        "difficulty": "advanced",
+        "equipment": [
+            "pullup_bar",
+            "towel"
+        ],
+        "riskFlags": [
+            "high_elbow_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/towel-pull-ups.png",
+                "alt": "Towel pull-ups",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "ring-rows",
+        "name": "Ring Rows",
+        "summary": "Scalable horizontal pulling; shoulder-friendly.",
+        "category": "strength",
+        "difficulty": "beginner",
+        "equipment": [
+            "rings"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/ring-rows.png",
+                "alt": "Ring rows",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "front-lever-tuck-holds",
+        "name": "Front Lever Tuck Holds",
+        "summary": "Core + lat tension for steep climbing body control.",
+        "category": "strength",
+        "difficulty": "advanced",
+        "equipment": [
+            "pullup_bar",
+            "timer"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "isometrics",
+            "core"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/front-lever-tuck-holds.png",
+                "alt": "Front lever tuck hold",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "hollow-body-hold",
+        "name": "Hollow Body Hold",
+        "summary": "Core stiffness for tension and efficient movement.",
+        "category": "strength",
+        "difficulty": "beginner",
+        "equipment": [
+            "timer"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "core"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/hollow-body-hold.png",
+                "alt": "Hollow body hold",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "hanging-knee-raises",
+        "name": "Hanging Knee Raises",
+        "summary": "Core and hip flexor strength for toeing-in and steep terrain.",
+        "category": "strength",
+        "difficulty": "beginner",
+        "equipment": [
+            "pullup_bar"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "core"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/hanging-knee-raises.png",
+                "alt": "Hanging knee raises",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "hanging-leg-raises",
+        "name": "Hanging Leg Raises",
+        "summary": "Advanced core control and compression strength.",
+        "category": "strength",
+        "difficulty": "advanced",
+        "equipment": [
+            "pullup_bar"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "core"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/hanging-leg-raises.png",
+                "alt": "Hanging leg raises",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "campus-ladders",
+        "name": "Campus Board Ladders",
+        "summary": "Powerful contact strength; keep volume low.",
+        "category": "power",
+        "difficulty": "advanced",
+        "equipment": [
+            "campus_board"
+        ],
+        "riskFlags": [
+            "high_finger_load",
+            "high_elbow_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "campus",
+            "power"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/campus-ladders.png",
+                "alt": "Campus ladders",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "campus-double-dynos",
+        "name": "Campus Double Dynos",
+        "summary": "Explosive recruitment and coordination; advanced only.",
+        "category": "power",
+        "difficulty": "advanced",
+        "equipment": [
+            "campus_board"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "campus",
+            "power"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/campus-double-dynos.png",
+                "alt": "Campus double dynos",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "plyo-pull-ups",
+        "name": "Plyometric Pull-Ups",
+        "summary": "Upper-body power for big moves; low volume.",
+        "category": "power",
+        "difficulty": "advanced",
+        "equipment": [
+            "pullup_bar"
+        ],
+        "riskFlags": [
+            "high_elbow_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "power"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/plyo-pull-ups.png",
+                "alt": "Plyo pull-ups",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "limit-bouldering-session",
+        "name": "Limit Bouldering Session",
+        "summary": "Max intensity bouldering attempts with long rests.",
+        "category": "power",
+        "difficulty": "intermediate",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "limit"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/limit-bouldering-session.png",
+                "alt": "Limit bouldering",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "board-climbing-limits",
+        "name": "Board Climbing (Limit)",
+        "summary": "Short, powerful board problems; strict rest discipline.",
+        "category": "power",
+        "difficulty": "advanced",
+        "equipment": [
+            "board"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "limit",
+            "board"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/board-climbing-limits.png",
+                "alt": "Board climbing",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "four-by-fours",
+        "name": "4x4s (Bouldering)",
+        "summary": "Power endurance staple: 4 problems x 4 rounds with controlled rest.",
+        "category": "endurance",
+        "difficulty": "intermediate",
+        "equipment": [
+            "climbing_wall",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_pump_risk"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "4x4",
+            "intervals"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/four-by-fours.png",
+                "alt": "4x4 training",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "three-by-threes",
+        "name": "3x3s (Bouldering)",
+        "summary": "Reduced-volume power endurance intervals; easier to recover from than 4x4s.",
+        "category": "endurance",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_pump_risk"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "intervals"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/three-by-threes.png",
+                "alt": "3x3 training",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "boulder-circuit-links",
+        "name": "Linked Boulder Circuits",
+        "summary": "Link multiple easier boulders for sustained effort.",
+        "category": "endurance",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall",
+            "timer_optional"
+        ],
+        "riskFlags": [
+            "high_pump_risk"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "circuits"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/boulder-circuit-links.png",
+                "alt": "Linked boulder circuits",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "arc-continuous-easy-climbing",
+        "name": "ARC (Continuous Easy Climbing)",
+        "summary": "Aerobic capacity: long easy continuous climbing with low pump.",
+        "category": "endurance",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall",
+            "timer"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "arc"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/arc-continuous-easy-climbing.png",
+                "alt": "ARC climbing",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "route-intervals-2x15",
+        "name": "Route Intervals (2 x 15 min blocks)",
+        "summary": "Sustained endurance blocks on routes or autobelay circuits.",
+        "category": "endurance",
+        "difficulty": "intermediate",
+        "equipment": [
+            "climbing_wall",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_pump_risk"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "intervals"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/route-intervals-2x15.png",
+                "alt": "Route intervals",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "power-endurance-30-30",
+        "name": "Power Endurance (30s on / 30s off)",
+        "summary": "Short hard intervals (on wall or circuit) to build PE.",
+        "category": "endurance",
+        "difficulty": "advanced",
+        "equipment": [
+            "climbing_wall",
+            "timer"
+        ],
+        "riskFlags": [
+            "high_pump_risk"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "intervals"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/power-endurance-30-30.png",
+                "alt": "30/30 intervals",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "silent-feet-drill",
+        "name": "Silent Feet Drill",
+        "summary": "Technique drill to improve foot placement precision.",
+        "category": "technique",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/silent-feet-drill.png",
+                "alt": "Silent feet drill",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "downclimbing-drill",
+        "name": "Downclimbing Drill",
+        "summary": "Builds control and movement efficiency; great warm-up.",
+        "category": "technique",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/downclimbing-drill.png",
+                "alt": "Downclimbing",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "flagging-drill",
+        "name": "Flagging Drill",
+        "summary": "Practice flagging to improve balance and reduce arm load.",
+        "category": "technique",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/flagging-drill.png",
+                "alt": "Flagging drill",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "hip-turn-drill",
+        "name": "Hip Turn / Drop-Knee Drill",
+        "summary": "Efficient hip positioning to extend reach and conserve energy.",
+        "category": "technique",
+        "difficulty": "intermediate",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/hip-turn-drill.png",
+                "alt": "Hip turn drill",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "straight-arm-climbing-drill",
+        "name": "Straight-Arm Climbing Drill",
+        "summary": "Teaches relaxed positions and efficient skeletal stacking.",
+        "category": "technique",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/straight-arm-climbing-drill.png",
+                "alt": "Straight arm drill",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "foot-swap-drill",
+        "name": "Foot Swap Drill",
+        "summary": "Practice controlled foot swaps on small footholds.",
+        "category": "technique",
+        "difficulty": "intermediate",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/foot-swap-drill.png",
+                "alt": "Foot swap drill",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "push-ups",
+        "name": "Push-Ups",
+        "summary": "Antagonist pushing strength for shoulder balance.",
+        "category": "antagonist",
+        "difficulty": "beginner",
+        "equipment": [],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/push-ups.png",
+                "alt": "Push-ups",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "dips",
+        "name": "Dips",
+        "summary": "Chest/triceps antagonist work; scale as needed.",
+        "category": "antagonist",
+        "difficulty": "intermediate",
+        "equipment": [
+            "dip_bars_optional",
+            "rings_optional"
+        ],
+        "riskFlags": [
+            "high_shoulder_stress"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/dips.png",
+                "alt": "Dips",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "band-external-rotations",
+        "name": "Band External Rotations",
+        "summary": "Rotator cuff prehab to support high pulling volume.",
+        "category": "antagonist",
+        "difficulty": "beginner",
+        "equipment": [
+            "band"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "prehab"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/band-external-rotations.png",
+                "alt": "External rotations",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "face-pulls",
+        "name": "Face Pulls",
+        "summary": "Upper back + rear delts for shoulder stability.",
+        "category": "antagonist",
+        "difficulty": "beginner",
+        "equipment": [
+            "band",
+            "cable_optional"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "prehab",
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/face-pulls.png",
+                "alt": "Face pulls",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "wrist-extensor-curls",
+        "name": "Wrist Extensor Curls",
+        "summary": "Forearm extensor strength to balance gripping.",
+        "category": "antagonist",
+        "difficulty": "beginner",
+        "equipment": [
+            "dumbbell_optional"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "prehab"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/wrist-extensor-curls.png",
+                "alt": "Wrist extensor curls",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "reverse-flys",
+        "name": "Reverse Flys",
+        "summary": "Rear delts/scapular control to support pulling posture.",
+        "category": "antagonist",
+        "difficulty": "beginner",
+        "equipment": [
+            "dumbbells_optional",
+            "band_optional"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/reverse-flys.png",
+                "alt": "Reverse flys",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "thoracic-rotations",
+        "name": "Thoracic Rotations",
+        "summary": "Mobility for better overhead positions and twisting.",
+        "category": "mobility",
+        "difficulty": "beginner",
+        "equipment": [],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "mobility"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/thoracic-rotations.png",
+                "alt": "Thoracic rotations",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "shoulder-dislocates-band",
+        "name": "Shoulder Dislocates (Band)",
+        "summary": "Shoulder mobility and control; keep it pain-free.",
+        "category": "mobility",
+        "difficulty": "beginner",
+        "equipment": [
+            "band"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "mobility"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/shoulder-dislocates-band.png",
+                "alt": "Shoulder dislocates",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "wrist-mobility-routine",
+        "name": "Wrist Mobility Routine",
+        "summary": "Wrist prep for mantles, slopers, and compression.",
+        "category": "mobility",
+        "difficulty": "beginner",
+        "equipment": [],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "mobility"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/wrist-mobility-routine.png",
+                "alt": "Wrist mobility",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "hip-openers",
+        "name": "Hip Openers (Climber Routine)",
+        "summary": "Hip mobility for high-steps and drop knees.",
+        "category": "mobility",
+        "difficulty": "beginner",
+        "equipment": [],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "mobility"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/hip-openers.png",
+                "alt": "Hip openers",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "core-compression-hold",
+        "name": "Compression Hold (Seated Pike / L-Sit Progression)",
+        "summary": "Compression strength for steep climbing and heel hooks.",
+        "category": "strength",
+        "difficulty": "intermediate",
+        "equipment": [
+            "parallettes_optional",
+            "timer"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "core",
+            "isometrics"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/core-compression-hold.png",
+                "alt": "Compression hold",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "climbing-warmup-easy-boulders",
+        "name": "Climbing Warm-Up (Easy Boulders)",
+        "summary": "Progressive warm-up ladder on easy climbs.",
+        "category": "technique",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "warmup"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/climbing-warmup-easy-boulders.png",
+                "alt": "Warm-up boulders",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "footwork-only-lap",
+        "name": "Footwork-Only Lap (Hands Light)",
+        "summary": "Technique endurance; focus on feet and posture.",
+        "category": "technique",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill",
+            "endurance"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/footwork-only-lap.png",
+                "alt": "Footwork lap",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "dead-hangs-jug",
+        "name": "Dead Hangs (Jugs)",
+        "summary": "Low-intensity hanging for warm-up and shoulder conditioning.",
+        "category": "strength",
+        "difficulty": "beginner",
+        "equipment": [
+            "pullup_bar",
+            "timer"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "warmup",
+            "prehab"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/dead-hangs-jug.png",
+                "alt": "Dead hangs on jugs",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "pinch-block-lifts",
+        "name": "Pinch Block Lifts",
+        "summary": "Pinch grip strength for pinch-heavy styles/problems.",
+        "category": "strength",
+        "difficulty": "intermediate",
+        "equipment": [
+            "pinch_block",
+            "weights"
+        ],
+        "riskFlags": [
+            "high_finger_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/pinch-block-lifts.png",
+                "alt": "Pinch block lifts",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "wrist-roller",
+        "name": "Wrist Roller",
+        "summary": "Forearm endurance/strength; useful for sustained gripping.",
+        "category": "strength",
+        "difficulty": "intermediate",
+        "equipment": [
+            "wrist_roller_optional",
+            "weights_optional"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "endurance"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/wrist-roller.png",
+                "alt": "Wrist roller",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "calf-raises",
+        "name": "Calf Raises (Foot Strength Support)",
+        "summary": "Supports foot/ankle resilience for edging and high volume.",
+        "category": "strength",
+        "difficulty": "beginner",
+        "equipment": [
+            "step_optional"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/calf-raises.png",
+                "alt": "Calf raises",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "single-leg-rdl",
+        "name": "Single-Leg RDL",
+        "summary": "Posterior chain + balance; helps with body tension and injury resilience.",
+        "category": "strength",
+        "difficulty": "intermediate",
+        "equipment": [
+            "dumbbell_optional"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/single-leg-rdl.png",
+                "alt": "Single-leg RDL",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "step-ups",
+        "name": "Step-Ups",
+        "summary": "Leg strength for high-steps and overall conditioning.",
+        "category": "strength",
+        "difficulty": "beginner",
+        "equipment": [
+            "box_optional",
+            "weights_optional"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "strength_sets"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/step-ups.png",
+                "alt": "Step-ups",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "heel-hook-tension-drill",
+        "name": "Heel Hook Tension Drill",
+        "summary": "Practice heel engagement and hip positioning on easier terrain.",
+        "category": "technique",
+        "difficulty": "intermediate",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/heel-hook-tension-drill.png",
+                "alt": "Heel hook drill",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "toe-hook-drill",
+        "name": "Toe Hook Drill",
+        "summary": "Practice toe hooks and core tension on steep features.",
+        "category": "technique",
+        "difficulty": "intermediate",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/toe-hook-drill.png",
+                "alt": "Toe hook drill",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "mantle-progressions",
+        "name": "Mantle Progressions",
+        "summary": "Top-out/mantle skill progressions (indoors or on slabs).",
+        "category": "technique",
+        "difficulty": "advanced",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [
+            "high_wrist_stress"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/mantle-progressions.png",
+                "alt": "Mantle progressions",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "volume-bouldering-moderate",
+        "name": "Volume Bouldering (Moderate)",
+        "summary": "Technique + capacity: many moderate boulders with controlled rest.",
+        "category": "endurance",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [
+            "high_skin_load"
+        ],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "volume"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/volume-bouldering-moderate.png",
+                "alt": "Volume bouldering",
+                "sortOrder": 0
+            }
+        ]
+    },
+    {
+        "slug": "resting-positions-practice",
+        "name": "Resting Positions Practice",
+        "summary": "Learn and rehearse no-hands / shake-out rests on routes.",
+        "category": "technique",
+        "difficulty": "beginner",
+        "equipment": [
+            "climbing_wall"
+        ],
+        "riskFlags": [],
+        "instructionsMarkdown": "TODO",
+        "cues": [],
+        "commonMistakes": [],
+        "protocolTags": [
+            "drill"
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "/static/exercises/resting-positions-practice.png",
+                "alt": "Rest positions",
+                "sortOrder": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+{
+    "name": "@climbr/api",
+    "version": "1.0.0",
+    "main": "dist/server.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsx watch src/server.ts",
+        "start": "node dist/server.js",
+        "test": "vitest run",
+        "seed": "tsx src/seed.ts",
+        "prisma": "prisma"
+    },
+    "dependencies": {
+        "@climbr/shared": "workspace:*",
+        "@fastify/autoload": "^5.0.0",
+        "@fastify/cors": "^9.0.0",
+        "@fastify/sensible": "^5.0.0",
+        "@fastify/static": "^7.0.0",
+        "@prisma/client": "^5.13.0",
+        "fastify": "^4.26.2",
+        "fastify-plugin": "^4.0.0",
+        "fastify-type-provider-zod": "^1.1.9",
+        "fastify-zod": "^1.4.0",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@typescript-eslint/eslint-plugin": "^8.49.0",
+        "@typescript-eslint/parser": "^8.49.0",
+        "eslint": "^8.57.1",
+        "fastify-cli": "^7.4.1",
+        "pino-pretty": "^11.0.0",
+        "prisma": "^5.13.0",
+        "tsx": "^4.7.0",
+        "typescript": "^5.4.0",
+        "vitest": "^1.6.0"
+    }
+}
