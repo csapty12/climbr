@@ -1,23 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, ScrollView, Image, StyleSheet, ActivityIndicator } from 'react-native';
-import { useRoute, RouteProp } from '@react-navigation/native';
+import { useRoute, useNavigation, RouteProp } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
 import { getExerciseDetail } from '../api/client';
 import type { ExerciseDetail } from '@climbr/shared';
 import Markdown from 'react-native-markdown-display';
 import { RootStackParamList } from '../../App';
+import { TouchableOpacity } from 'react-native';
 
 export const ExerciseDetailScreen = () => {
     const route = useRoute<RouteProp<RootStackParamList, 'ExerciseDetail'>>();
-    const { id } = route.params;
+    const navigation = useNavigation<StackNavigationProp<RootStackParamList>>();
+    const { exerciseId } = route.params;
     const [detail, setDetail] = useState<ExerciseDetail | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        getExerciseDetail(id)
+        getExerciseDetail(exerciseId)
             .then(setDetail)
             .catch(console.error)
             .finally(() => setLoading(false));
-    }, [id]);
+    }, [exerciseId]);
 
     if (loading) return <View style={styles.center}><ActivityIndicator /></View>;
     if (!detail) return <View style={styles.center}><Text>Not Found</Text></View>;
@@ -43,6 +46,16 @@ export const ExerciseDetailScreen = () => {
                     <Text style={styles.badge}>{detail.difficulty}</Text>
                 </View>
 
+                {/* Start Session Button */}
+                {detail.protocol && (
+                    <TouchableOpacity
+                        style={styles.startButton}
+                        onPress={() => navigation.navigate('ConfigureSession', { exerciseId: detail.id })}
+                    >
+                        <Text style={styles.startButtonText}>Start Session</Text>
+                    </TouchableOpacity>
+                )}
+
                 <Text style={styles.sectionHeader}>Instructions</Text>
                 <Markdown>{detail.instructionsMarkdown}</Markdown>
 
@@ -63,5 +76,7 @@ const styles = StyleSheet.create({
     badges: { flexDirection: 'row', gap: 10, marginBottom: 20 },
     badge: { backgroundColor: '#eee', padding: 5, borderRadius: 5 },
     sectionHeader: { fontSize: 18, fontWeight: 'bold', marginTop: 20, marginBottom: 10 },
-    bullet: { fontSize: 16, marginBottom: 5 }
+    bullet: { fontSize: 16, marginBottom: 5 },
+    startButton: { backgroundColor: '#007AFF', padding: 15, borderRadius: 10, alignItems: 'center', marginVertical: 10 },
+    startButtonText: { color: 'white', fontWeight: 'bold', fontSize: 18 }
 });

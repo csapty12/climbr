@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "vitest run"
   },
   "dependencies": {
     "@climbr/shared": "workspace:*",
@@ -29,7 +30,8 @@
     "@typescript-eslint/parser": "^8.49.0",
     "eslint": "^8.57.1",
     "eslint-config-expo": "^10.0.0",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.3",
+    "vitest": "^1.6.1"
   },
   "private": true
 }

@@ -23,6 +23,7 @@ model Exercise {
   createdAt           DateTime @default(now())
   updatedAt           DateTime @updatedAt
   media               ExerciseMedia[]
+  protocol            Json?
 
   @@index([updatedAt(sort: Desc), id(sort: Desc)])
 }

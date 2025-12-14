@@ -28,6 +28,28 @@ export const ExerciseSummarySchema = z.object({
     updatedAt: z.string().datetime() // ISO String
 });
 
+// Protocols
+export const ExerciseProtocolDataSchema = z.discriminatedUnion('kind', [
+    z.object({
+        kind: z.literal('timed_reps_sets'),
+        default: z.object({
+            sets: z.number().int().min(1),
+            repsPerSet: z.number().int().min(1),
+            workSecPerRep: z.number().int().min(0),
+            restSecBetweenReps: z.number().int().min(0),
+            restSecBetweenSets: z.number().int().min(0)
+        })
+    }),
+    z.object({
+        kind: z.literal('weights_reps_sets'),
+        default: z.object({
+            sets: z.number().int().min(1),
+            repsPerSet: z.number().int().min(1),
+            restSecBetweenSets: z.number().int().min(0)
+        })
+    })
+]);
+
 // Detail View
 export const ExerciseDetailSchema = ExerciseSummarySchema.extend({
     instructionsMarkdown: z.string(),
@@ -36,7 +58,10 @@ export const ExerciseDetailSchema = ExerciseSummarySchema.extend({
     commonMistakes: z.array(z.string()).default([]),
     protocolTags: z.array(z.string()).default([]),
     media: z.array(ExerciseMediaSchema).default([]),
+    protocol: ExerciseProtocolDataSchema.optional(),
 });
+
+export type ExerciseProtocol = z.infer<typeof ExerciseProtocolDataSchema>;
 
 // API Response for List
 export const ExercisesListResponseSchema = z.object({

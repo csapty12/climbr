@@ -1,5 +1,12 @@
 import { prisma } from '../db/prisma';
-import { GetExercisesQuery, ExerciseSummary, ExerciseDetail } from '@climbr/shared';
+import {
+    GetExercisesQuery,
+    ExerciseSummary,
+    ExerciseDetail,
+    ExerciseProtocolDataSchema,
+    ExerciseCategories,
+    ExerciseDifficulties
+} from '@climbr/shared';
 import { decodeCursor, encodeCursor } from '../lib/pagination';
 import { notFound } from '../lib/errors';
 import { Prisma } from '@prisma/client';
@@ -65,8 +72,8 @@ export class ExerciseService {
             slug: item.slug,
             name: item.name,
             summary: item.summary,
-            category: item.category as any,
-            difficulty: item.difficulty as any,
+            category: item.category as ExerciseCategories,
+            difficulty: item.difficulty as ExerciseDifficulties,
             equipment: item.equipment,
             updatedAt: item.updatedAt.toISOString(),
             thumbnailUrl: item.media[0]?.url
@@ -98,12 +105,30 @@ export class ExerciseService {
             throw notFound(`Exercise not found: ${idOrSlug}`);
         }
 
+        // Validate protocol data from database using Zod
+        let validatedProtocol = undefined;
+        if (exercise.protocol) {
+            try {
+                validatedProtocol = ExerciseProtocolDataSchema.parse(exercise.protocol);
+            } catch (error) {
+                console.error('Invalid protocol data in database:', error);
+                // Protocol is optional, so we can continue without it
+            }
+        }
+
         return {
             ...exercise,
-            category: exercise.category as any,
-            difficulty: exercise.difficulty as any,
+            category: exercise.category as ExerciseCategories,
+            difficulty: exercise.difficulty as ExerciseDifficulties,
+            protocol: validatedProtocol,
             updatedAt: exercise.updatedAt.toISOString(),
-            media: exercise.media as any
+            media: exercise.media.map(m => ({
+                id: m.id,
+                type: m.type,
+                url: m.url,
+                alt: m.alt,
+                sortOrder: m.sortOrder
+            }))
         };
     }
 }

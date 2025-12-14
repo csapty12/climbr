@@ -18,6 +18,16 @@
         "protocolTags": [
             "repeaters"
         ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 6,
+                "workSecPerRep": 7,
+                "restSecBetweenReps": 3,
+                "restSecBetweenSets": 180
+            }
+        },
         "media": [
             {
                 "type": "image",
@@ -305,6 +315,14 @@
         "protocolTags": [
             "strength_sets"
         ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 5,
+                "restSecBetweenSets": 180
+            }
+        },
         "media": [
             {
                 "type": "image",

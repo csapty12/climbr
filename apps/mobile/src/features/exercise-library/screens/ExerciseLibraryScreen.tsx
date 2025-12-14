@@ -14,7 +14,7 @@ export const ExerciseLibraryScreen = () => {
     const renderItem = ({ item }: { item: ExerciseSummary }) => (
         <TouchableOpacity
             style={styles.card}
-            onPress={() => navigation.navigate('ExerciseDetail', { id: item.slug })}
+            onPress={() => navigation.navigate('ExerciseDetail', { exerciseId: item.id })}
         >
             <View style={styles.cardContent}>
                 <Text style={styles.cardTitle}>{item.name}</Text>
