@@ -12,14 +12,14 @@ export const exerciseRoutes: FastifyPluginAsync = async (fastify) => {
         schema: {
             querystring: GetExercisesQuerySchema
         }
-    }, async (request, reply) => {
+    }, async (request) => {
         // request.query is automatically typed and validated!
         const query = request.query;
         const result = await exerciseService.getExercises(query);
         return result;
     });
 
-    server.get('/:id', async (request, reply) => {
+    server.get('/:id', async (request) => {
         const { id } = request.params as { id: string };
         const result = await exerciseService.getExercise(id);
         return result;

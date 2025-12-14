@@ -1,7 +1,6 @@
 import { prisma } from './db/prisma';
 import fs from 'fs';
 import path from 'path';
-import { ExerciseSummary } from '@climbr/shared';
 // Note: importing ExerciseSummary types from shared is fine, but we need the raw JSON type here which matches our schema
 // or we perform runtime validation. For seed, we trust the JSON matches roughly.
 

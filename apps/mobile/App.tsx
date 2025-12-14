@@ -3,7 +3,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { ExerciseLibraryScreen } from './src/features/exercise-library/screens/ExerciseLibraryScreen';
 import { ExerciseDetailScreen } from './src/screens/ExerciseDetailScreen';
-import { registerRootComponent } from 'expo';
 
 import { ConfigureSessionScreen, RunSessionScreen, SessionSummaryScreen } from './src/features/execute-session/screens';
 

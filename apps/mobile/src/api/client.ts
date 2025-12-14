@@ -1,4 +1,4 @@
-import { ExercisesListResponse, ExerciseDetail, GetExercisesQuery } from '@climbr/shared'; // Type-only import is assumed by usage context (ignoring values)
+// Type-only import is assumed by usage context (ignoring values)
 // Actually we need to be careful not to import VALUES from shared if it has Node-stuff.
 // created packages/shared has no side-effects, just Zod schemas and constants.
 // Importing constants (CATEGORIES) is fine even in mobile if no Node-polylibs needed.
@@ -9,7 +9,6 @@ import { ExercisesListResponse, ExerciseDetail, GetExercisesQuery } from '@climb
 // So I must NOT import the constants. I should duplicate them or hardcode them in Mobile UI.
 
 import type {
-    ExerciseSummary,
     ExerciseDetail as SharedExerciseDetail,
     ExercisesListResponse as SharedListResponse,
     GetExercisesQuery as SharedQuery

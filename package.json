@@ -13,9 +13,12 @@
     "seed": "pnpm --filter @climbr/api seed",
     "test": "pnpm -r test",
     "typecheck": "pnpm -r exec tsc --noEmit",
-    "lint": "pnpm -r exec eslint ."
+    "lint": "pnpm -r exec eslint .",
+    "lint:fix": "pnpm -r exec eslint . --fix",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "concurrently": "^9.2.1",
+    "husky": "^9.1.7"
   }
 }
