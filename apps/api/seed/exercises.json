@@ -12,9 +12,21 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild finger **power endurance** by repeating sub-maximal hangs with short recoveries.\n\n## Setup\n- Choose an edge/hold you can complete for the full set **with good form** (typically ~60–80% effort).\n- Use a **half crimp or open-hand** grip unless your plan specifies otherwise.\n- Start every hang from **engaged shoulders** (scapula slightly down/back), elbows straight.\n\n## How to do it\n1. Hang for **7s**.\n2. Rest for **3s** (stay close to the board; shake out).\n3. Repeat for **6 reps** to complete a set.\n4. Rest **3–4 min** between sets.\n5. Complete **3 sets**.\n\n## Intensity & progression\n- Aim to finish each set with **1–2 reps in reserve** (no “fight to failure”).\n- Progress by: slightly smaller edge, adding small weight, or adding a set (not all at once).\n\n## Safety\n- Stop if you feel **sharp finger pain** or pulley tenderness.\n- Keep wrists neutral; avoid “chicken-wing” shoulders.\n",
+        "cues": [
+            "Shoulders engaged: scapula down/back, ribs stacked.",
+            "Quiet, controlled start—no bouncing into the hang.",
+            "Use the same grip depth each rep (consistent edge contact).",
+            "Breathe: short inhale on, exhale during the hang.",
+            "End reps cleanly—step down before form breaks."
+        ],
+        "commonMistakes": [
+            "Choosing an edge that forces failure before the last reps.",
+            "Shrugging shoulders up into ears during fatigue.",
+            "Letting elbows bend to ‘cheat’ the hang.",
+            "Switching grip mid-set (open-hand → crimp) without intent.",
+            "Skipping warm-up or starting repeaters cold."
+        ],
         "protocolTags": [
             "repeaters"
         ],
@@ -50,9 +62,21 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild finger **power endurance** by repeating sub-maximal hangs with short recoveries.\n\n## Setup\n- Choose an edge/hold you can complete for the full set **with good form** (typically ~60–80% effort).\n- Use a **half crimp or open-hand** grip unless your plan specifies otherwise.\n- Start every hang from **engaged shoulders** (scapula slightly down/back), elbows straight.\n\n## How to do it\n1. Hang for **6s**.\n2. Rest for **4s** (stay close to the board; shake out).\n3. Repeat for **6 reps** to complete a set.\n4. Rest **3–4 min** between sets.\n5. Complete **3 sets**.\n\n## Intensity & progression\n- Aim to finish each set with **1–2 reps in reserve** (no “fight to failure”).\n- Progress by: slightly smaller edge, adding small weight, or adding a set (not all at once).\n\n## Safety\n- Stop if you feel **sharp finger pain** or pulley tenderness.\n- Keep wrists neutral; avoid “chicken-wing” shoulders.\n",
+        "cues": [
+            "Shoulders engaged: scapula down/back, ribs stacked.",
+            "Quiet, controlled start—no bouncing into the hang.",
+            "Use the same grip depth each rep (consistent edge contact).",
+            "Breathe: short inhale on, exhale during the hang.",
+            "End reps cleanly—step down before form breaks."
+        ],
+        "commonMistakes": [
+            "Choosing an edge that forces failure before the last reps.",
+            "Shrugging shoulders up into ears during fatigue.",
+            "Letting elbows bend to ‘cheat’ the hang.",
+            "Switching grip mid-set (open-hand → crimp) without intent.",
+            "Skipping warm-up or starting repeaters cold."
+        ],
         "protocolTags": [
             "repeaters"
         ],
@@ -63,7 +87,17 @@
                 "alt": "Hangboard repeaters 6/4",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 6,
+                "workSecPerRep": 6,
+                "restSecBetweenReps": 4,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "hangboard-repeaters-10-5",
@@ -78,9 +112,21 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild finger **power endurance** by repeating sub-maximal hangs with short recoveries.\n\n## Setup\n- Choose an edge/hold you can complete for the full set **with good form** (typically ~60–80% effort).\n- Use a **half crimp or open-hand** grip unless your plan specifies otherwise.\n- Start every hang from **engaged shoulders** (scapula slightly down/back), elbows straight.\n\n## How to do it\n1. Hang for **10s**.\n2. Rest for **5s** (stay close to the board; shake out).\n3. Repeat for **5 reps** to complete a set.\n4. Rest **4–5 min** between sets.\n5. Complete **3 sets**.\n\n## Intensity & progression\n- Aim to finish each set with **1–2 reps in reserve** (no “fight to failure”).\n- Progress by: slightly smaller edge, adding small weight, or adding a set (not all at once).\n\n## Safety\n- Stop if you feel **sharp finger pain** or pulley tenderness.\n- Keep wrists neutral; avoid “chicken-wing” shoulders.\n",
+        "cues": [
+            "Shoulders engaged: scapula down/back, ribs stacked.",
+            "Quiet, controlled start—no bouncing into the hang.",
+            "Use the same grip depth each rep (consistent edge contact).",
+            "Breathe: short inhale on, exhale during the hang.",
+            "End reps cleanly—step down before form breaks."
+        ],
+        "commonMistakes": [
+            "Choosing an edge that forces failure before the last reps.",
+            "Shrugging shoulders up into ears during fatigue.",
+            "Letting elbows bend to ‘cheat’ the hang.",
+            "Switching grip mid-set (open-hand → crimp) without intent.",
+            "Skipping warm-up or starting repeaters cold."
+        ],
         "protocolTags": [
             "repeaters"
         ],
@@ -91,7 +137,17 @@
                 "alt": "Hangboard repeaters 10/5",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 5,
+                "workSecPerRep": 10,
+                "restSecBetweenReps": 5,
+                "restSecBetweenSets": 240
+            }
+        }
     },
     {
         "slug": "max-hang-10s-open-hand",
@@ -108,9 +164,21 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nIncrease **max finger strength** with heavy, low-volume hangs in a open-hand position.\n\n## Setup\n- Select an edge where **10s is hard but repeatable** with added weight or assistance.\n- Use a **timer** and consistent grip depth.\n- Warm up thoroughly: easy hangs → a few progressively harder singles.\n\n## How to do it\n1. Get into position: shoulders engaged, elbows straight, wrists neutral.\n2. Hang for **10s** at **near-max** effort (aim ~RPE 9–9.5).\n3. Rest **3 min** between hangs.\n4. Complete **5 total hangs**.\n\n## Load guidance\n- If you can exceed 10s with control, **add small weight** (1–2 kg) or use a smaller edge.\n- If you fail early (<8s), **reduce load** or increase edge size.\n\n## Safety\n- Avoid full crimp unless specifically programmed and you tolerate it well.\n- Stop if you feel sharp pain, a “pop,” or lingering soreness that changes how you grip.\n",
+        "cues": [
+            "Start from dead still—no kick or swing.",
+            "Engage lats: ‘pull shoulder blades into back pockets.’",
+            "Neutral wrist; squeeze through fingertip pads, not knuckles.",
+            "Hold open-hand: keep finger position consistent the entire hang.",
+            "Step down before the hang becomes a fight."
+        ],
+        "commonMistakes": [
+            "Grinding to failure on every set (too much strain, poor recovery).",
+            "Shrugging or bending elbows to extend time.",
+            "Inconsistent edge depth between sets.",
+            "Rushing rest periods (reduces quality of max-strength stimulus).",
+            "Ignoring skin/finger warning signs."
+        ],
         "protocolTags": [
             "max_hangs"
         ],
@@ -121,7 +189,17 @@
                 "alt": "Open hand max hang",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 5,
+                "repsPerSet": 1,
+                "workSecPerRep": 10,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "max-hang-10s-half-crimp",
@@ -138,9 +216,21 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nIncrease **max finger strength** with heavy, low-volume hangs in a half crimp position.\n\n## Setup\n- Select an edge where **10s is hard but repeatable** with added weight or assistance.\n- Use a **timer** and consistent grip depth.\n- Warm up thoroughly: easy hangs → a few progressively harder singles.\n\n## How to do it\n1. Get into position: shoulders engaged, elbows straight, wrists neutral.\n2. Hang for **10s** at **near-max** effort (aim ~RPE 9–9.5).\n3. Rest **3 min** between hangs.\n4. Complete **5 total hangs**.\n\n## Load guidance\n- If you can exceed 10s with control, **add small weight** (1–2 kg) or use a smaller edge.\n- If you fail early (<8s), **reduce load** or increase edge size.\n\n## Safety\n- Avoid full crimp unless specifically programmed and you tolerate it well.\n- Stop if you feel sharp pain, a “pop,” or lingering soreness that changes how you grip.\n",
+        "cues": [
+            "Start from dead still—no kick or swing.",
+            "Engage lats: ‘pull shoulder blades into back pockets.’",
+            "Neutral wrist; squeeze through fingertip pads, not knuckles.",
+            "Hold half crimp: keep finger position consistent the entire hang.",
+            "Step down before the hang becomes a fight."
+        ],
+        "commonMistakes": [
+            "Grinding to failure on every set (too much strain, poor recovery).",
+            "Shrugging or bending elbows to extend time.",
+            "Inconsistent edge depth between sets.",
+            "Rushing rest periods (reduces quality of max-strength stimulus).",
+            "Ignoring skin/finger warning signs."
+        ],
         "protocolTags": [
             "max_hangs"
         ],
@@ -151,7 +241,17 @@
                 "alt": "Half crimp max hang",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 5,
+                "repsPerSet": 1,
+                "workSecPerRep": 10,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "density-hangs-30-30",
@@ -166,9 +266,19 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild **sub-max finger capacity** (density) with controlled intensity and steady volume.\n\n## Setup\n- Choose an edge/hold that feels **moderate** (you should never be close to failure).\n- Use open-hand or half-crimp; keep it consistent.\n- Track total volume: density work accumulates fast.\n\n## How to do it\n1. Hang for **30s**.\n2. Rest for **30s**.\n3. Repeat for **10 reps** to complete a set.\n4. Rest **4–5 min** between sets.\n5. Complete **2 sets**.\n\n## Intensity target\n- Aim for a “working pump” but **no form breakdown** and no pain.\n- If your forearms are exploding early, the edge is too small or you need assistance.\n\n## Safety\n- Keep shoulders engaged and wrists neutral.\n- Avoid density hangs if you have active finger tweaky pain.\n",
+        "cues": [
+            "Smooth, relaxed breathing—don’t hold your breath.",
+            "Shoulders stable; forearms do the work.",
+            "Same grip depth every rep.",
+            "Shake out during rests; stay tall through the torso."
+        ],
+        "commonMistakes": [
+            "Treating density like repeaters and going too hard.",
+            "Letting shoulders shrug as fatigue builds.",
+            "Continuing through finger pain or pulley tenderness.",
+            "Adding volume too quickly week-to-week."
+        ],
         "protocolTags": [
             "density_hangs"
         ],
@@ -179,7 +289,17 @@
                 "alt": "Density hangs",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 2,
+                "repsPerSet": 10,
+                "workSecPerRep": 30,
+                "restSecBetweenReps": 30,
+                "restSecBetweenSets": 240
+            }
+        }
     },
     {
         "slug": "assisted-one-arm-hangs",
@@ -197,9 +317,21 @@
             "high_finger_load",
             "high_elbow_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nProgress toward **one-arm hanging strength** while keeping the elbow and shoulder safe using assistance.\n\n## Setup\n- Use a pulley/counterweight or band so the working arm can hold **clean form**.\n- Choose a comfortable edge; do not chase tiny holds here.\n- Keep assistance consistent across reps so you can track progress.\n\n## How to do it\n1. Set up assistance (pulley or band) so the off-hand reduces load.\n2. Hang mostly on the working arm for **7s**.\n3. Rest **45s**, then repeat for **3 reps** on that side.\n4. Switch sides and repeat.\n5. Rest **3 min** between sets; complete **3 sets**.\n\n## Intensity & progression\n- Effort should feel **hard but controlled** (no twisting, no elbow flare).\n- Progress by: reducing assistance slightly, increasing hold time, or adding a rep.\n\n## Safety\n- Avoid deep shoulder internal rotation; keep chest proud and scapula engaged.\n- If you get medial elbow pain, stop and reduce intensity/volume next time.\n",
+        "cues": [
+            "Square hips and shoulders—don’t twist to ‘cheat’ the hang.",
+            "Keep scapula set: down/back, not shrugged.",
+            "Wrist neutral; grip through fingertip pads.",
+            "Use just enough assistance to keep the rep smooth.",
+            "Switch sides with equal total volume."
+        ],
+        "commonMistakes": [
+            "Using too little assistance and compensating with twisting.",
+            "Letting the working shoulder ride up.",
+            "Hanging with a bent elbow to ‘save’ fingers.",
+            "Going to failure and irritating the elbow.",
+            "Uneven volume between left/right."
+        ],
         "protocolTags": [
             "max_hangs",
             "assisted"
@@ -211,7 +343,17 @@
                 "alt": "Assisted one-arm hangs",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 3,
+                "workSecPerRep": 7,
+                "restSecBetweenReps": 45,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "recruitment-pulls-hangboard",
@@ -226,9 +368,21 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nRecruit high-threshold pulling + finger units with **very short, explosive** efforts (low fatigue).\n\n## Setup\n- Use a comfortable edge (or large rung) and ensure you can stay controlled.\n- Warm up thoroughly; do a few easy explosive pulls before starting.\n- Keep total volume low; quality over quantity.\n\n## How to do it\n1. From a dead hang with engaged shoulders, perform an **explosive pull** (1–2 seconds).\n2. Return under control to the start position.\n3. Repeat for **3 reps**.\n4. Rest **3 min** and repeat for **5 sets**.\n\n## Intensity\n- Each rep should feel **snappy**; stop the set if speed drops.\n- This is not conditioning—avoid accumulating pump.\n\n## Safety\n- Do not do recruitment pulls when fingers are sore or skin is thin.\n- Keep elbows tracking naturally; avoid painful ‘tweaks’.\n",
+        "cues": [
+            "Explode up, control down—no slam or drop.",
+            "Stop a set as soon as speed fades.",
+            "Engage shoulders before the first pull.",
+            "Keep core tight to minimize swinging.",
+            "Use a grip you can keep consistent."
+        ],
+        "commonMistakes": [
+            "Turning it into a high-rep workout and getting pumped.",
+            "Using an edge that’s too small and loading fingers aggressively.",
+            "Dropping into the bottom and bouncing into the next rep.",
+            "Ignoring elbow discomfort or ‘tendon-y’ sensations.",
+            "Doing recruitment work when already fatigued."
+        ],
         "protocolTags": [
             "recruitment"
         ],
@@ -239,7 +393,15 @@
                 "alt": "Recruitment pulls",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 5,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "foot-on-campus-assisted-hangs",
@@ -255,9 +417,19 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nScale hangboard intensity using your feet so you can build volume safely.\n\n## Setup\n- Put one or both feet on a box/rung so you can **reduce finger load**.\n- Keep shoulders engaged and minimize swing.\n- Adjust foot pressure so the last reps are challenging but controlled.\n\n## How to do it\n1. Start in a stable position with feet lightly weighted.\n2. Hang for **7s**, then rest **3s** (maintain position).\n3. Repeat for **6 reps**.\n4. Rest **3 min** between sets; do **3 sets**.\n\n## Progression\n- Reduce foot assistance over time (lighter feet), or use a slightly smaller edge.\n\n## Safety\n- Avoid sudden unloading/loading through the feet; keep pressure consistent.\n",
+        "cues": [
+            "Press feet consistently—don’t ‘step on’ only when tired.",
+            "Shoulders set; long neck, chest tall.",
+            "Minimal swing; keep hips under the board.",
+            "Use the same grip and edge contact each rep."
+        ],
+        "commonMistakes": [
+            "Too much assistance (exercise becomes too easy).",
+            "Too little assistance (form breaks or fingers strain).",
+            "Letting shoulders shrug when tired.",
+            "Changing foot position mid-set and losing consistency."
+        ],
         "protocolTags": [
             "repeaters",
             "assisted"
@@ -269,7 +441,17 @@
                 "alt": "Assisted hangs with feet",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 6,
+                "workSecPerRep": 7,
+                "restSecBetweenReps": 3,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "finger-extensor-band-opens",
@@ -281,9 +463,19 @@
             "finger_bands"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nTrain finger extensors to balance high gripping volume and support elbow/forearm health.\n\n## Setup\n- Place finger bands around fingertips (not the knuckles).\n- Use a resistance that lets you open fully without pain.\n\n## How to do it\n1. Start with fingers together and slightly bent.\n2. Open fingers against the band until fully extended.\n3. Control back to the start (don’t snap shut).\n4. Perform **25 reps** for **3 sets**, resting **60s** between sets.\n\n## Progression\n- Increase reps first, then add slightly stronger bands.\n\n## Safety\n- Keep movement pain-free; stop if you feel sharp pain on the outside of the elbow.\n",
+        "cues": [
+            "Open all fingers evenly (don’t let pinky lag).",
+            "Slow return—control the eccentric.",
+            "Keep wrist neutral.",
+            "Work for a light burn, not a cramp."
+        ],
+        "commonMistakes": [
+            "Using a band that’s too strong and losing range of motion.",
+            "Letting the band ride down toward the knuckles.",
+            "Snapping fingers closed between reps.",
+            "Shrugging shoulders or tensing the neck."
+        ],
         "protocolTags": [
             "prehab"
         ],
@@ -294,7 +486,15 @@
                 "alt": "Finger extensor bands",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 25,
+                "restSecBetweenSets": 60
+            }
+        }
     },
     {
         "slug": "weighted-pull-ups",
@@ -309,9 +509,19 @@
         "riskFlags": [
             "high_elbow_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nUpper-body pulling strength base for climbing.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **3–6**.\n- Use a weight belt or dumbbell; keep it strict.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **3–3 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 6; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- If elbows feel irritated, reduce load and keep reps slower.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -344,9 +554,19 @@
         "riskFlags": [
             "high_elbow_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nFundamental strict pulling strength with clean scap control.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **5–10**.\n- Use assistance (band) if you can’t keep full range.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **2–3 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 10; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- Avoid kipping unless specifically training it.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -357,7 +577,15 @@
                 "alt": "Pull-ups",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 5,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "scapular-pull-ups",
@@ -369,9 +597,19 @@
             "pullup_bar"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nScapular depression/retraction strength for shoulder health and efficient pulling.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **8–15**.\n- Arms stay straight; movement comes from the shoulder blades.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **1–2 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 15; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- Keep it small and controlled—no jerking.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "prehab"
         ],
@@ -382,7 +620,15 @@
                 "alt": "Scapular pull-ups",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 8,
+                "restSecBetweenSets": 90
+            }
+        }
     },
     {
         "slug": "lock-off-holds-90",
@@ -397,9 +643,19 @@
         "riskFlags": [
             "high_elbow_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nIsometric lock-off strength and control around ~90° elbow angle.\n\n## Setup\n- Use a position you can hold with **no joint pain**.\n- Keep shoulders engaged and core tight.\n\n## How to do it\n1. Get into the target position.\n2. Hold for **10s** with steady breathing.\n3. Rest **2–2 min**.\n4. Complete **5 holds**.\n\n## Progression\n- Increase hold time first, then move to a harder progression.\n\n## Safety\n- Stop if you feel sharp pain in the shoulder, elbow, or lower back.\n",
+        "cues": [
+            "Breathe—avoid breath-holding.",
+            "Maintain body tension (ribs down, glutes on).",
+            "Keep shoulder blades engaged and stable.",
+            "Stop the set before you lose the shape."
+        ],
+        "commonMistakes": [
+            "Overarching lower back to ‘fake’ the position.",
+            "Shrugging into shoulders during fatigue.",
+            "Holding too long and turning it into a sloppy grind.",
+            "Progressing too quickly to harder variations."
+        ],
         "protocolTags": [
             "isometrics"
         ],
@@ -410,7 +666,17 @@
                 "alt": "90 degree lock-off",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 5,
+                "repsPerSet": 1,
+                "workSecPerRep": 10,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "lock-off-holds-120",
@@ -425,9 +691,19 @@
         "riskFlags": [
             "high_elbow_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nIsometric lock-off strength around ~120° elbow angle (more extended).\n\n## Setup\n- Use a position you can hold with **no joint pain**.\n- Keep shoulders engaged and core tight.\n\n## How to do it\n1. Get into the target position.\n2. Hold for **10s** with steady breathing.\n3. Rest **2–2 min**.\n4. Complete **5 holds**.\n\n## Progression\n- Increase hold time first, then move to a harder progression.\n\n## Safety\n- Stop if you feel sharp pain in the shoulder, elbow, or lower back.\n",
+        "cues": [
+            "Breathe—avoid breath-holding.",
+            "Maintain body tension (ribs down, glutes on).",
+            "Keep shoulder blades engaged and stable.",
+            "Stop the set before you lose the shape."
+        ],
+        "commonMistakes": [
+            "Overarching lower back to ‘fake’ the position.",
+            "Shrugging into shoulders during fatigue.",
+            "Holding too long and turning it into a sloppy grind.",
+            "Progressing too quickly to harder variations."
+        ],
         "protocolTags": [
             "isometrics"
         ],
@@ -438,7 +714,17 @@
                 "alt": "120 degree lock-off",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 5,
+                "repsPerSet": 1,
+                "workSecPerRep": 10,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "towel-pull-ups",
@@ -453,9 +739,19 @@
         "riskFlags": [
             "high_elbow_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nGrip-focused pulling strength (more forearm + elbow demand).\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **3–6**.\n- Drape two towels over the bar or use one thick towel for more difficulty.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **3–3 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 6; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- Be conservative if you’re prone to medial elbow pain.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -466,7 +762,15 @@
                 "alt": "Towel pull-ups",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "ring-rows",
@@ -478,9 +782,19 @@
             "rings"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nScalable horizontal pulling for upper-back strength and shoulder balance.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **8–15**.\n- Walk feet forward to make it harder; keep body in a straight line.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **2–2 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 15; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- Avoid shrugging at the top.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -491,7 +805,15 @@
                 "alt": "Ring rows",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 8,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "front-lever-tuck-holds",
@@ -504,9 +826,19 @@
             "timer"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nCore + lat tension for steep climbing body control (tuck position).\n\n## Setup\n- Use a position you can hold with **no joint pain**.\n- Keep shoulders engaged and core tight.\n\n## How to do it\n1. Get into the target position.\n2. Hold for **10s** with steady breathing.\n3. Rest **2–3 min**.\n4. Complete **5 holds**.\n\n## Progression\n- Increase hold time first, then move to a harder progression.\n\n## Safety\n- Stop if you feel sharp pain in the shoulder, elbow, or lower back.\n",
+        "cues": [
+            "Breathe—avoid breath-holding.",
+            "Maintain body tension (ribs down, glutes on).",
+            "Keep shoulder blades engaged and stable.",
+            "Stop the set before you lose the shape."
+        ],
+        "commonMistakes": [
+            "Overarching lower back to ‘fake’ the position.",
+            "Shrugging into shoulders during fatigue.",
+            "Holding too long and turning it into a sloppy grind.",
+            "Progressing too quickly to harder variations."
+        ],
         "protocolTags": [
             "isometrics",
             "core"
@@ -518,7 +850,17 @@
                 "alt": "Front lever tuck hold",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 5,
+                "repsPerSet": 1,
+                "workSecPerRep": 10,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "hollow-body-hold",
@@ -530,9 +872,19 @@
             "timer"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nCore stiffness for body tension and efficient movement.\n\n## Setup\n- Use a position you can hold with **no joint pain**.\n- Keep shoulders engaged and core tight.\n\n## How to do it\n1. Get into the target position.\n2. Hold for **30s** with steady breathing.\n3. Rest **1–1 min**.\n4. Complete **3 holds**.\n\n## Progression\n- Increase hold time first, then move to a harder progression.\n\n## Safety\n- Stop if you feel sharp pain in the shoulder, elbow, or lower back.\n",
+        "cues": [
+            "Breathe—avoid breath-holding.",
+            "Maintain body tension (ribs down, glutes on).",
+            "Keep shoulder blades engaged and stable.",
+            "Stop the set before you lose the shape."
+        ],
+        "commonMistakes": [
+            "Overarching lower back to ‘fake’ the position.",
+            "Shrugging into shoulders during fatigue.",
+            "Holding too long and turning it into a sloppy grind.",
+            "Progressing too quickly to harder variations."
+        ],
         "protocolTags": [
             "core"
         ],
@@ -543,7 +895,17 @@
                 "alt": "Hollow body hold",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 1,
+                "workSecPerRep": 30,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 60
+            }
+        }
     },
     {
         "slug": "hanging-knee-raises",
@@ -555,9 +917,19 @@
             "pullup_bar"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nCore + hip flexor strength for toeing-in and steep terrain.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **8–15**.\n- Start from a dead hang; avoid swinging.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **2–2 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 15; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- If shoulder discomfort, use a captain’s chair or raise knees with smaller ROM.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "core"
         ],
@@ -568,7 +940,15 @@
                 "alt": "Hanging knee raises",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 8,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "hanging-leg-raises",
@@ -580,9 +960,19 @@
             "pullup_bar"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nAdvanced core control and compression strength.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **5–10**.\n- Keep legs straight; control the descent.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **2–3 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 10; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- Avoid aggressive swinging—quality over height.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "core"
         ],
@@ -593,7 +983,15 @@
                 "alt": "Hanging leg raises",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 5,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "campus-ladders",
@@ -608,9 +1006,23 @@
             "high_finger_load",
             "high_elbow_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nContact strength + pulling power on the campus board (advanced).\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **1–2**.\n- One ‘rep’ = one ladder up (e.g., 1-3-5) with controlled catch.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **3–3 min** between sets.\n4. Complete **6 sets**.\n\n## Progression\n- Add reps up to 2; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- Only when fingers are healthy and warm; keep volume very low.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended.",
+            "Catch with slightly bent elbows; absorb force through shoulders.",
+            "Keep feet off only if it’s safe; otherwise use feet-on progressions."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality.",
+            "Too much volume (common cause of finger/elbow flare-ups).",
+            "Launching from cold fingers or after a high-volume session."
+        ],
         "protocolTags": [
             "campus",
             "power"
@@ -622,7 +1034,15 @@
                 "alt": "Campus ladders",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 6,
+                "repsPerSet": 1,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "campus-double-dynos",
@@ -636,9 +1056,19 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nDevelop explosive contact strength and coordination with **double dynos** (advanced only).\n\n## Setup\n- Use large, comfortable rungs; start feet-on if needed.\n- Warm up fingers and shoulders thoroughly.\n- Keep attempts low and high quality.\n\n## How to do it\n1. Start matched on a rung.\n2. Generate force through shoulders and lats; jump both hands to the target rung.\n3. Stick the catch with control (no “slam and hope”).\n4. Rest fully between attempts.\n\n## Progression\n- Increase rung spacing only when catches stay crisp and pain-free.\n\n## Safety\n- Avoid if you have any finger, elbow, or shoulder niggles.\n",
+        "cues": [
+            "Explode then ‘catch softly’—absorb force through shoulders.",
+            "Keep core tight to reduce swing on the catch.",
+            "Stop when contact quality drops.",
+            "Prefer bigger rungs over bigger spacing at first."
+        ],
+        "commonMistakes": [
+            "Doing dynos on small rungs (excess finger shock load).",
+            "Too many attempts and getting sloppy.",
+            "Catching with straight locked elbows (joint stress).",
+            "Dynoing when fatigued from hard bouldering."
+        ],
         "protocolTags": [
             "campus",
             "power"
@@ -650,7 +1080,15 @@
                 "alt": "Campus double dynos",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 6,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "plyo-pull-ups",
@@ -664,9 +1102,19 @@
         "riskFlags": [
             "high_elbow_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild upper-body power for big moves by training explosive pull-ups (low volume).\n\n## Setup\n- Use a stable bar; chalk if needed.\n- Warm up shoulders/elbows with scap pull-ups and easy pull-ups.\n\n## How to do it\n1. From a dead hang, pull explosively so the bar reaches mid-chest or higher.\n2. Pause briefly at the top (avoid slamming).\n3. Lower under control.\n4. Rest fully between sets.\n\n## Progression\n- Increase height first, then add small external load.\n\n## Safety\n- Stop if you feel elbow tendon irritation; keep reps very crisp.\n",
+        "cues": [
+            "Explode up; control down.",
+            "Keep ribs down and core tight to limit swing.",
+            "Finish with shoulders depressed (not shrugged).",
+            "Quality > quantity—stop before speed drops."
+        ],
+        "commonMistakes": [
+            "Turning it into kipping pull-ups unintentionally.",
+            "Too many reps leading to sloppy landings/descents.",
+            "Relying on momentum instead of pulling power.",
+            "Training plyometrics when elbows are already cranky."
+        ],
         "protocolTags": [
             "power"
         ],
@@ -677,7 +1125,15 @@
                 "alt": "Plyo pull-ups",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 5,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "limit-bouldering-session",
@@ -691,9 +1147,19 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove maximal bouldering ability by taking **high-quality attempts** near your limit with long rests.\n\n## Setup\n- Choose 3–6 problems around your current limit (or slightly above).\n- Keep total hard attempts controlled to protect fingers/skin.\n- Use a timer for rests.\n\n## How to do it\n1. Attempt a problem for up to ~1–2 minutes of real effort.\n2. Rest **3–5 minutes** between attempts (longer if power isn’t back).\n3. Rotate between problems; stop when quality drops.\n\n## Progression\n- Track: best move reached, number of quality attempts, and sends.\n- Progress by improving density of quality attempts, not by shortening rest.\n\n## Safety\n- End early if fingers feel tweaky or skin is near failure.\n",
+        "cues": [
+            "Take full rests; treat each attempt like a max lift.",
+            "Video a few tries to spot technique inefficiencies.",
+            "Stop before you start ‘thrashing’.",
+            "Keep shoulders engaged on steep moves."
+        ],
+        "commonMistakes": [
+            "Resting too little and turning it into power-endurance.",
+            "Spamming one move until skin/fingers are cooked.",
+            "Picking too many problems and never getting quality attempts.",
+            "Ignoring early warning signs in fingers/pulleys."
+        ],
         "protocolTags": [
             "limit"
         ],
@@ -704,7 +1170,15 @@
                 "alt": "Limit bouldering",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 10,
+                "repsPerSet": 1,
+                "restSecBetweenSets": 240
+            }
+        }
     },
     {
         "slug": "board-climbing-limits",
@@ -718,9 +1192,19 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nDevelop limit strength/power on a board (Moon/Kilter/Tension) with strict rest discipline.\n\n## Setup\n- Pick 3–5 problems with hard moves but safe landings.\n- Board climbing is finger-dense; keep total volume low.\n\n## How to do it\n1. Take a max attempt (1–2 minutes of effort).\n2. Rest **3–5 minutes**.\n3. Rotate problems; cap the number of hard attempts.\n\n## Progression\n- Add attempts only if quality stays high, or choose slightly harder problems.\n\n## Safety\n- Avoid if fingers are sore; board style is high intensity.\n",
+        "cues": [
+            "Full rest or it isn’t ‘limit’ board climbing.",
+            "Keep feet precise—avoid cutting and swinging wildly.",
+            "Pull with the back; don’t ‘arm yank’ on edges.",
+            "Stop if fingers feel unstable."
+        ],
+        "commonMistakes": [
+            "Doing too much volume on small edges.",
+            "Resting too little and getting pumped.",
+            "Continuing once skin is gone (changes movement and increases injury risk).",
+            "Sessioning tweaky grips (e.g., hard half-crimp) when fatigued."
+        ],
         "protocolTags": [
             "limit",
             "board"
@@ -732,7 +1216,15 @@
                 "alt": "Board climbing",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 10,
+                "repsPerSet": 1,
+                "restSecBetweenSets": 240
+            }
+        }
     },
     {
         "slug": "four-by-fours",
@@ -747,9 +1239,19 @@
         "riskFlags": [
             "high_pump_risk"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild bouldering **power endurance** by accumulating short bursts of hard climbing with incomplete rest.\n\n## Setup\n- Choose **4 boulders** around ~2–4 grades below your max (you should be able to do each when fresh).\n- Decide a rest between problems (typically **30–60s**).\n\n## How to do it\n1. Climb boulder #1 → rest briefly → #2 → #3 → #4 (that’s 1 round).\n2. Rest **4 minutes** between rounds.\n3. Complete **4 rounds**.\n\n## Progression\n- Reduce rest between problems slightly, or choose slightly harder boulders.\n\n## Safety\n- Stop if you’re getting “flaily” or landing poorly—fatigue increases fall risk.\n",
+        "cues": [
+            "Keep rests strict—use a timer.",
+            "Focus on efficient movement; avoid thrashing.",
+            "Shake out arms during rests.",
+            "Choose boulders with safe falls."
+        ],
+        "commonMistakes": [
+            "Choosing boulders too hard and failing early each round.",
+            "Taking long rests between problems and losing the PE stimulus.",
+            "Ignoring skin/finger fatigue and forcing volume.",
+            "Doing 4x4s too often (recovery cost is high)."
+        ],
         "protocolTags": [
             "4x4",
             "intervals"
@@ -761,7 +1263,15 @@
                 "alt": "4x4 training",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 4,
+                "repsPerSet": 4,
+                "restSecBetweenSets": 240
+            }
+        }
     },
     {
         "slug": "three-by-threes",
@@ -776,9 +1286,19 @@
         "riskFlags": [
             "high_pump_risk"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nA lower-volume power endurance interval session (easier to recover from than 4x4s).\n\n## Setup\n- Choose **3 boulders** ~2–4 grades below max.\n- Use **30–60s** rest between problems.\n\n## How to do it\n1. Climb #1 → rest → #2 → rest → #3 (1 round).\n2. Rest **3 minutes** between rounds.\n3. Complete **3 rounds**.\n\n## Progression\n- Add a round (to 4), or slightly reduce intra-round rests.\n\n## Safety\n- Keep landings controlled; stop if coordination deteriorates.\n",
+        "cues": [
+            "Keep difficulty moderate—quality reps matter.",
+            "Use controlled breathing to manage pump.",
+            "Stay smooth and quiet with feet.",
+            "Stick to the rest plan."
+        ],
+        "commonMistakes": [
+            "Picking problems that are too hard or too pumpy.",
+            "Cutting rest between rounds too short.",
+            "Letting technique collapse under fatigue.",
+            "Adding volume too quickly week-to-week."
+        ],
         "protocolTags": [
             "intervals"
         ],
@@ -789,7 +1309,15 @@
                 "alt": "3x3 training",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 180
+            }
+        }
     },
     {
         "slug": "boulder-circuit-links",
@@ -804,9 +1332,19 @@
         "riskFlags": [
             "high_pump_risk"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild sustained bouldering capacity by linking multiple easier problems into longer efforts.\n\n## Setup\n- Pick 2–4 easy boulders that flow well together.\n- Plan the link (order, downclimb, traverse).\n\n## How to do it\n1. Complete the planned link (1 ‘rep’).\n2. Rest **2 minutes**.\n3. Repeat for **6 reps** (or stop when quality drops).\n\n## Progression\n- Add one boulder to the link, or reduce rest slightly.\n\n## Safety\n- Manage skin: links can sneakily accumulate lots of moves.\n",
+        "cues": [
+            "Stay relaxed; keep arms straight where possible.",
+            "Keep feet precise as fatigue rises.",
+            "Use shakeouts mid-link if available.",
+            "Keep rest consistent."
+        ],
+        "commonMistakes": [
+            "Choosing boulders too hard and failing the link repeatedly.",
+            "Rushing rests and turning it into a suffer-fest.",
+            "Ignoring skin and getting splits.",
+            "Poor route planning leading to unsafe falls."
+        ],
         "protocolTags": [
             "circuits"
         ],
@@ -817,7 +1355,15 @@
                 "alt": "Linked boulder circuits",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 6,
+                "repsPerSet": 1,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "arc-continuous-easy-climbing",
@@ -830,9 +1376,19 @@
             "timer"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove aerobic capacity (ARC) with long, easy continuous climbing at low pump.\n\n## Setup\n- Choose very easy terrain: ~no harder than a pace where you can maintain a conversation.\n- Prefer long traverses, auto-belay laps, or very easy routes.\n\n## How to do it\n1. Climb continuously for **20 minutes** keeping pump at ~2–3/10.\n2. Rest **5 minutes** (shake out, hydrate).\n3. Repeat for a second 20-minute block.\n\n## Progression\n- Extend block length (to 25–30 min) before increasing difficulty.\n\n## Safety\n- Stop if elbows/shoulders become painful; ARC should feel easy.\n",
+        "cues": [
+            "You should feel warm, not pumped out.",
+            "Keep hands relaxed; avoid death-gripping.",
+            "Use straight arms and good hips-in positions.",
+            "Breathe steadily the entire time."
+        ],
+        "commonMistakes": [
+            "Climbing too hard and turning ARC into threshold training.",
+            "Stopping frequently instead of keeping continuous movement.",
+            "Overgripping due to poor footwork.",
+            "Skipping hydration on longer blocks."
+        ],
         "protocolTags": [
             "arc"
         ],
@@ -843,7 +1399,17 @@
                 "alt": "ARC climbing",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 2,
+                "repsPerSet": 1,
+                "workSecPerRep": 1200,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 300
+            }
+        }
     },
     {
         "slug": "route-intervals-2x15",
@@ -858,9 +1424,19 @@
         "riskFlags": [
             "high_pump_risk"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild sustained endurance with two longer climbing blocks.\n\n## Setup\n- Use routes/auto-belay laps that keep you working but not failing constantly.\n- Plan how you’ll keep moving (lap routes, climb-downs, traverses).\n\n## How to do it\n1. Climb continuously for **15 minutes** (steady work; brief shakes ok).\n2. Rest **5 minutes**.\n3. Repeat for a second 15-minute block.\n\n## Progression\n- Increase to 2x18–20 minutes, or slightly increase route difficulty.\n\n## Safety\n- Keep it controlled; stop before you get reckless with clipping/footwork.\n",
+        "cues": [
+            "Find shakeouts early and use them.",
+            "Focus on relaxed grip and straight arms.",
+            "Keep pace steady—avoid sprinting then stopping.",
+            "Use efficient clipping positions if on ropes."
+        ],
+        "commonMistakes": [
+            "Choosing routes too hard and failing repeatedly.",
+            "Racing the first block and blowing up.",
+            "Ignoring technique and just ‘surviving’.",
+            "Not resting long enough between blocks."
+        ],
         "protocolTags": [
             "intervals"
         ],
@@ -871,7 +1447,17 @@
                 "alt": "Route intervals",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 2,
+                "repsPerSet": 1,
+                "workSecPerRep": 900,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 300
+            }
+        }
     },
     {
         "slug": "power-endurance-30-30",
@@ -886,9 +1472,19 @@
         "riskFlags": [
             "high_pump_risk"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove power endurance with short hard intervals (on a wall circuit or board).\n\n## Setup\n- Choose a circuit that feels **hard** but repeatable for multiple reps.\n- You should be close to pumped by the end, but still moving well.\n\n## How to do it\n1. Climb for **30s**.\n2. Rest for **30s**.\n3. Repeat for **10 reps**.\n4. Rest **5 minutes** and repeat for a second set if quality remains.\n\n## Progression\n- Add a rep or set, or slightly increase circuit difficulty.\n\n## Safety\n- High pump increases fall risk; choose safe terrain and downclimb where possible.\n",
+        "cues": [
+            "Use the clock—start and stop exactly on time.",
+            "Keep feet active; don’t overgrip.",
+            "Shake out during rests.",
+            "Stop the set when movement becomes unsafe."
+        ],
+        "commonMistakes": [
+            "Picking a circuit that’s too hard and failing early.",
+            "Skipping rests or extending rests inconsistently.",
+            "Letting technique collapse as pump rises.",
+            "Doing 30/30s too close to heavy finger sessions."
+        ],
         "protocolTags": [
             "intervals"
         ],
@@ -899,7 +1495,17 @@
                 "alt": "30/30 intervals",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 2,
+                "repsPerSet": 10,
+                "workSecPerRep": 30,
+                "restSecBetweenReps": 30,
+                "restSecBetweenSets": 300
+            }
+        }
     },
     {
         "slug": "silent-feet-drill",
@@ -911,9 +1517,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove foot placement precision by placing each foot silently and deliberately.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **4 climbs/laps** focusing on the drill constraint.\n2. Rest **2–2 min**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -924,7 +1540,15 @@
                 "alt": "Silent feet drill",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 4,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "downclimbing-drill",
@@ -936,9 +1560,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove control and movement efficiency by downclimbing with the same precision as upclimbing.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **4 climbs/laps** focusing on the drill constraint.\n2. Rest **2–2 min**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -949,7 +1583,15 @@
                 "alt": "Downclimbing",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 4,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "flagging-drill",
@@ -961,9 +1603,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nPractice flagging to improve balance, reduce arm load, and keep hips close to the wall.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **4 climbs/laps** focusing on the drill constraint.\n2. Rest **2–2 min**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -974,7 +1626,15 @@
                 "alt": "Flagging drill",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 4,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "hip-turn-drill",
@@ -986,9 +1646,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nPractice hip turns/drop-knees to extend reach and conserve energy.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **3 climbs/laps** focusing on the drill constraint.\n2. Rest **2–3 min**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -999,7 +1669,15 @@
                 "alt": "Hip turn drill",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "straight-arm-climbing-drill",
@@ -1011,9 +1689,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nLearn relaxed positions and skeletal stacking by keeping arms straight whenever possible.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **4 climbs/laps** focusing on the drill constraint.\n2. Rest **2–2 min**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -1024,7 +1712,15 @@
                 "alt": "Straight arm drill",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 4,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "foot-swap-drill",
@@ -1036,9 +1732,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nPractice controlled foot swaps on small footholds with stable hips.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **3 climbs/laps** focusing on the drill constraint.\n2. Rest **2–3 min**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -1049,7 +1755,15 @@
                 "alt": "Foot swap drill",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "push-ups",
@@ -1059,9 +1773,19 @@
         "difficulty": "beginner",
         "equipment": [],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nAntagonist pushing strength to balance heavy pulling volume.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **8–20**.\n- Elevate hands for easier; elevate feet or add weight for harder.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **1–2 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 20; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -1072,7 +1796,15 @@
                 "alt": "Push-ups",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 8,
+                "restSecBetweenSets": 90
+            }
+        }
     },
     {
         "slug": "dips",
@@ -1087,9 +1819,19 @@
         "riskFlags": [
             "high_shoulder_stress"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nAntagonist chest/triceps strength; supports shoulder balance.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **5–10**.\n- Use bars/rings; scale with assistance if needed.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **2–3 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 10; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- Keep shoulders depressed; avoid painful deep range.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -1100,7 +1842,15 @@
                 "alt": "Dips",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 5,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "band-external-rotations",
@@ -1112,9 +1862,19 @@
             "band"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nRotator cuff endurance/strength for shoulder stability.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **12–20**.\n- Elbow at side; rotate from shoulder, not wrist.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **1–1 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 20; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n- Stay light—this should never feel like a max effort.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "prehab"
         ],
@@ -1125,7 +1885,15 @@
                 "alt": "External rotations",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 12,
+                "restSecBetweenSets": 60
+            }
+        }
     },
     {
         "slug": "face-pulls",
@@ -1138,9 +1906,19 @@
             "cable_optional"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nUpper back + rear delts for scapular stability and posture.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **12–20**.\n- Band or cable at face height; finish with thumbs back.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **1–2 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 20; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "prehab",
             "strength_sets"
@@ -1152,7 +1930,15 @@
                 "alt": "Face pulls",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 12,
+                "restSecBetweenSets": 90
+            }
+        }
     },
     {
         "slug": "wrist-extensor-curls",
@@ -1164,9 +1950,19 @@
             "dumbbell_optional"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nForearm extensor strength to balance gripping and support elbow health.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **15–25**.\n- Light dumbbell; support forearm on thigh/bench.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **1–1 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 25; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "prehab"
         ],
@@ -1177,7 +1973,15 @@
                 "alt": "Wrist extensor curls",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 15,
+                "restSecBetweenSets": 60
+            }
+        }
     },
     {
         "slug": "reverse-flys",
@@ -1190,9 +1994,19 @@
             "band_optional"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nRear delts/scapular control to support pulling posture.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **12–20**.\n- Use light DBs or band; pause at end range.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **1–2 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 20; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -1203,7 +2017,15 @@
                 "alt": "Reverse flys",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 12,
+                "restSecBetweenSets": 90
+            }
+        }
     },
     {
         "slug": "thoracic-rotations",
@@ -1213,9 +2035,19 @@
         "difficulty": "beginner",
         "equipment": [],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove thoracic spine rotation for better overhead positions and twisting movements on the wall.\n\n## Setup\n- Use a comfortable kneeling or side-lying position.\n- Move slowly; avoid forcing range.\n\n## How to do it\n1. Rotate through your upper back while keeping hips relatively stable.\n2. Exhale as you rotate to encourage range.\n3. Do **8 reps per side** for **2–3 sets**.\n\n## Progression\n- Increase range and control, not speed.\n\n## Safety\n- Stop if you feel sharp pain or pinching in the spine/shoulder.\n",
+        "cues": [
+            "Move from the upper back, not the lower back.",
+            "Exhale into the rotation.",
+            "Keep shoulders relaxed.",
+            "Control the return."
+        ],
+        "commonMistakes": [
+            "Forcing range and arching lower back.",
+            "Moving too fast and losing control.",
+            "Letting hips spin instead of the thoracic spine.",
+            "Holding breath."
+        ],
         "protocolTags": [
             "mobility"
         ],
@@ -1226,7 +2058,15 @@
                 "alt": "Thoracic rotations",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 2,
+                "repsPerSet": 8,
+                "restSecBetweenSets": 30
+            }
+        }
     },
     {
         "slug": "shoulder-dislocates-band",
@@ -1238,9 +2078,19 @@
             "band"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove shoulder mobility and control through a pain-free overhead range.\n\n## Setup\n- Use a light band or PVC; start with a wide grip.\n- Keep ribs down to avoid compensating with the lower back.\n\n## How to do it\n1. With straight arms, raise the band overhead and continue behind you.\n2. Reverse back to the start.\n3. Perform **10 reps** for **2 sets**.\n\n## Progression\n- Narrow grip slightly over time (only if pain-free).\n\n## Safety\n- No pinching; reduce range or widen grip immediately if you feel discomfort.\n",
+        "cues": [
+            "Straight elbows; move slowly.",
+            "Ribs down, glutes lightly on.",
+            "Keep shoulders ‘packed’ not shrugged.",
+            "Use the widest grip that is pain-free."
+        ],
+        "commonMistakes": [
+            "Too narrow grip causing shoulder pinching.",
+            "Bending elbows to cheat range.",
+            "Overarching lower back.",
+            "Going fast and losing control."
+        ],
         "protocolTags": [
             "mobility"
         ],
@@ -1251,7 +2101,15 @@
                 "alt": "Shoulder dislocates",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 2,
+                "repsPerSet": 10,
+                "restSecBetweenSets": 30
+            }
+        }
     },
     {
         "slug": "wrist-mobility-routine",
@@ -1261,9 +2119,19 @@
         "difficulty": "beginner",
         "equipment": [],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nPrepare wrists for mantles, slopers, and compression by moving through common wrist ranges.\n\n## How to do it (pain-free only)\n- Wrist circles: 30–60s each direction.\n- Palm pulses (kneeling, fingers forward): 10–15 reps.\n- Back-of-hand pulses (if tolerated): 8–12 reps.\n- Side-to-side ‘rockers’: 10–15 reps.\n\n## Notes\n- Keep elbows soft; move slowly and never force end range.\n\n## Safety\n- Skip positions that cause sharp pain, tingling, or numbness.\n",
+        "cues": [
+            "Small range first, then gradually larger.",
+            "Even pressure through the hand.",
+            "Breathe and relax shoulders.",
+            "Stop before sharp pain."
+        ],
+        "commonMistakes": [
+            "Forcing end range aggressively.",
+            "Locking elbows and dumping load into joints.",
+            "Ignoring nerve symptoms (tingling/numbness).",
+            "Doing too much volume on irritated wrists."
+        ],
         "protocolTags": [
             "mobility"
         ],
@@ -1274,7 +2142,17 @@
                 "alt": "Wrist mobility",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 1,
+                "repsPerSet": 1,
+                "workSecPerRep": 300,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 0
+            }
+        }
     },
     {
         "slug": "hip-openers",
@@ -1284,9 +2162,19 @@
         "difficulty": "beginner",
         "equipment": [],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove hip mobility for high-steps, drop-knees, and wider stances.\n\n## How to do it\n- 90/90 switches: 8 reps per side.\n- Deep squat pry: 60s.\n- Lunge + hip flexor stretch: 45s per side.\n- Pigeon (or figure-4): 45s per side.\n\n## Notes\n- Move slowly and breathe; prioritize control over depth.\n\n## Safety\n- Avoid sharp pinching in the front of the hip; reduce range or change angle.\n",
+        "cues": [
+            "Slow transitions; control the end positions.",
+            "Breathe into tight areas.",
+            "Keep pelvis neutral—don’t crank the lower back.",
+            "Aim for symmetry left/right over time."
+        ],
+        "commonMistakes": [
+            "Forcing range and causing hip pinching.",
+            "Rushing through holds.",
+            "Letting knees collapse inward.",
+            "Ignoring discomfort that lingers after the session."
+        ],
         "protocolTags": [
             "mobility"
         ],
@@ -1297,7 +2185,17 @@
                 "alt": "Hip openers",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 1,
+                "repsPerSet": 1,
+                "workSecPerRep": 600,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 0
+            }
+        }
     },
     {
         "slug": "core-compression-hold",
@@ -1310,9 +2208,19 @@
             "timer"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nCompression strength for steep climbing, heel hooks, and toeing-in (pike/L-sit progression).\n\n## Setup\n- Use a position you can hold with **no joint pain**.\n- Keep shoulders engaged and core tight.\n\n## How to do it\n1. Get into the target position.\n2. Hold for **15s** with steady breathing.\n3. Rest **1–2 min**.\n4. Complete **5 holds**.\n\n## Progression\n- Increase hold time first, then move to a harder progression.\n\n## Safety\n- Stop if you feel sharp pain in the shoulder, elbow, or lower back.\n",
+        "cues": [
+            "Breathe—avoid breath-holding.",
+            "Maintain body tension (ribs down, glutes on).",
+            "Keep shoulder blades engaged and stable.",
+            "Stop the set before you lose the shape."
+        ],
+        "commonMistakes": [
+            "Overarching lower back to ‘fake’ the position.",
+            "Shrugging into shoulders during fatigue.",
+            "Holding too long and turning it into a sloppy grind.",
+            "Progressing too quickly to harder variations."
+        ],
         "protocolTags": [
             "core",
             "isometrics"
@@ -1324,7 +2232,17 @@
                 "alt": "Compression hold",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 5,
+                "repsPerSet": 1,
+                "workSecPerRep": 15,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 90
+            }
+        }
     },
     {
         "slug": "climbing-warmup-easy-boulders",
@@ -1336,9 +2254,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nA progressive climbing warm-up that prepares fingers, shoulders, and movement patterns.\n\n## Setup\n- Start very easy and increase difficulty gradually.\n- Include different hold types and angles if possible.\n\n## How to do it\n1. Do 3–5 very easy boulders (focus on smooth movement).\n2. Do 2–3 easy-moderate boulders (slightly higher effort).\n3. Do 1–2 ‘primer’ boulders (short, snappy, not max) before your main session.\n\n## Notes\n- Rest briefly between climbs; avoid getting pumped in the warm-up.\n\n## Safety\n- If fingers feel stiff, extend the easy phase rather than jumping grades.\n",
+        "cues": [
+            "Start easier than you think.",
+            "Move quietly and deliberately.",
+            "Engage shoulders early; avoid dead-hanging cold.",
+            "Stop warm-up before you’re pumped."
+        ],
+        "commonMistakes": [
+            "Jumping straight onto small edges.",
+            "Doing too many hard tries in warm-up.",
+            "Ignoring shoulder activation (scapular control).",
+            "Rushing because you ‘feel fine’—fingers lag behind."
+        ],
         "protocolTags": [
             "warmup"
         ],
@@ -1349,7 +2277,15 @@
                 "alt": "Warm-up boulders",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 1,
+                "repsPerSet": 10,
+                "restSecBetweenSets": 0
+            }
+        }
     },
     {
         "slug": "footwork-only-lap",
@@ -1361,9 +2297,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove movement efficiency by making feet do the work while keeping hands light.\n\n## Setup\n- Choose very easy terrain (route or long traverse).\n- Use open hands; avoid crimping.\n\n## How to do it\n1. Climb a lap focusing on: high-steps, precise placement, and hips close to the wall.\n2. Keep hands ‘for balance’—if forearms are working hard, go easier.\n3. Rest 2 minutes and repeat for 4–6 laps.\n\n## Progression\n- Increase lap length or reduce rest; keep intensity easy.\n\n## Safety\n- Avoid slippery feet or sketchy dynos; this is about control.\n",
+        "cues": [
+            "Push through legs; stay tall.",
+            "Soft hands—don’t squeeze.",
+            "Hips in; move one limb at a time.",
+            "Feet: place then weight; no tapping."
+        ],
+        "commonMistakes": [
+            "Choosing terrain too hard and pulling with arms.",
+            "Rushing and losing precision.",
+            "Letting core go slack and barn-dooring.",
+            "Doing too much volume and shredding skin."
+        ],
         "protocolTags": [
             "drill",
             "endurance"
@@ -1375,7 +2321,15 @@
                 "alt": "Footwork lap",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 5,
+                "repsPerSet": 1,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "dead-hangs-jug",
@@ -1388,9 +2342,19 @@
             "timer"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nLow-intensity hanging to warm up shoulders and condition passive structures.\n\n## Setup\n- Use comfortable jugs (no finger strain).\n- Engage shoulders gently; avoid full ‘dead’ shrug.\n\n## How to do it\n1. Hang for **30 seconds** with shoulders lightly engaged.\n2. Rest **60 seconds**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Increase time slightly or add scap retractions during the hang.\n\n## Safety\n- Stop if you feel shoulder pinching or numbness/tingling in hands.\n",
+        "cues": [
+            "Long body line; ribs stacked.",
+            "Shoulders gently down/back.",
+            "Relax grip; jugs should feel easy.",
+            "Breathe steadily."
+        ],
+        "commonMistakes": [
+            "Hanging with shoulders fully shrugged.",
+            "Using holds that strain fingers.",
+            "Swinging or twisting.",
+            "Ignoring shoulder discomfort."
+        ],
         "protocolTags": [
             "warmup",
             "prehab"
@@ -1402,7 +2366,17 @@
                 "alt": "Dead hangs on jugs",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 1,
+                "workSecPerRep": 30,
+                "restSecBetweenReps": 0,
+                "restSecBetweenSets": 60
+            }
+        }
     },
     {
         "slug": "pinch-block-lifts",
@@ -1417,9 +2391,19 @@
         "riskFlags": [
             "high_finger_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nImprove pinch strength for pinch-heavy problems and sloper/pinch combinations.\n\n## Setup\n- Use a pinch block and loading pin (or adjustable weight).\n- Choose a load you can lift smoothly without pain.\n\n## How to do it\n1. Stand tall, shoulders packed, arm straight.\n2. Lift the weight for **3–5 seconds**, then lower under control.\n3. Perform **5 reps per hand** for **3 sets**, resting **2–3 min** between sets.\n\n## Progression\n- Add small weight increments or increase hold time.\n\n## Safety\n- Keep wrist neutral; stop if you feel sharp finger or thumb pain.\n",
+        "cues": [
+            "Drive through thumb pad and fingers evenly.",
+            "Shoulder packed; no shrugging.",
+            "Lift smoothly—no jerks.",
+            "Neutral wrist; don’t ‘curl’ the block."
+        ],
+        "commonMistakes": [
+            "Jerking the lift off the floor.",
+            "Bending elbow and turning it into a curl.",
+            "Letting wrist collapse into flexion.",
+            "Too much weight causing thumb joint irritation."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -1430,7 +2414,17 @@
                 "alt": "Pinch block lifts",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "timed_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 5,
+                "workSecPerRep": 5,
+                "restSecBetweenReps": 10,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "wrist-roller",
@@ -1443,9 +2437,19 @@
             "weights_optional"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nForearm endurance/strength via continuous wrist flexion/extension rolling.\n\n## Setup\n- Use a wrist roller with a moderate load.\n- Keep elbows slightly bent and shoulders down/back.\n\n## How to do it\n1. Roll weight up until the cord is fully wound.\n2. Roll back down under control.\n3. That is 1 rep. Do **3 reps** for **3 sets**, resting **2 min**.\n\n## Progression\n- Add small weight or extra up/down cycles.\n\n## Safety\n- Stop if you feel sharp elbow pain; keep it moderate.\n",
+        "cues": [
+            "Smooth roll—no ‘yanking’ with shoulders.",
+            "Wrists do the work; keep arms quiet.",
+            "Control the descent.",
+            "Moderate load you can repeat."
+        ],
+        "commonMistakes": [
+            "Too heavy and compensating with body swing.",
+            "Letting shoulders shrug up.",
+            "Dropping the weight quickly on the way down.",
+            "Doing it to failure and flaring elbows."
+        ],
         "protocolTags": [
             "endurance"
         ],
@@ -1456,7 +2460,15 @@
                 "alt": "Wrist roller",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "calf-raises",
@@ -1468,9 +2480,19 @@
             "step_optional"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nFoot/ankle strength and resilience for edging and high volume.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **12–25**.\n- Use a step for full range; add weight for harder.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **1–1 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 25; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -1481,7 +2503,15 @@
                 "alt": "Calf raises",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 12,
+                "restSecBetweenSets": 60
+            }
+        }
     },
     {
         "slug": "single-leg-rdl",
@@ -1493,9 +2523,19 @@
             "dumbbell_optional"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nPosterior chain + balance; supports body tension and injury resilience.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **6–12**.\n- Hold a DB in opposite hand; keep hips square.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **2–2 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 12; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -1506,7 +2546,15 @@
                 "alt": "Single-leg RDL",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 6,
+                "restSecBetweenSets": 120
+            }
+        }
     },
     {
         "slug": "step-ups",
@@ -1519,9 +2567,19 @@
             "weights_optional"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nLeg strength for high-steps and overall conditioning.\n\n## Setup\n- Choose a variation/load that keeps reps **clean** within **8–15**.\n- Use a box height that challenges but stays controlled; add load as needed.\n\n## How to do it\n1. Perform controlled reps through a full, pain-free range.\n2. Stop **1–2 reps before form breaks**.\n3. Rest **1–2 min** between sets.\n4. Complete **3 sets**.\n\n## Progression\n- Add reps up to 15; then increase load or make the variation harder.\n\n## Safety\n- Keep shoulders packed and wrists neutral.\n",
+        "cues": [
+            "Control the lowering phase; don’t drop into end range.",
+            "Keep ribs down and core braced.",
+            "Shoulders away from ears throughout.",
+            "Move smoothly—no bouncing or kipping unless intended."
+        ],
+        "commonMistakes": [
+            "Chasing reps with ugly form.",
+            "Letting shoulders roll forward at the top/bottom.",
+            "Cutting range of motion as fatigue builds.",
+            "Not resting enough to keep reps high quality."
+        ],
         "protocolTags": [
             "strength_sets"
         ],
@@ -1532,7 +2590,15 @@
                 "alt": "Step-ups",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 8,
+                "restSecBetweenSets": 90
+            }
+        }
     },
     {
         "slug": "heel-hook-tension-drill",
@@ -1544,9 +2610,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nPractice heel engagement + hip position while maintaining core tension.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **3 climbs/laps** focusing on the drill constraint.\n2. Rest **2–3 min**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -1557,7 +2633,15 @@
                 "alt": "Heel hook drill",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "toe-hook-drill",
@@ -1569,9 +2653,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nPractice toe hooks with core tension and controlled body position on steep features.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **3 climbs/laps** focusing on the drill constraint.\n2. Rest **2–3 min**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -1582,7 +2676,15 @@
                 "alt": "Toe hook drill",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "mantle-progressions",
@@ -1596,9 +2698,19 @@
         "riskFlags": [
             "high_wrist_stress"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild top-out/mantle skill: weight transfer over hands with controlled wrist/shoulder positions.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **3 climbs/laps** focusing on the drill constraint.\n2. Rest **2–3 min**.\n3. Repeat for **4 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -1609,7 +2721,15 @@
                 "alt": "Mantle progressions",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 4,
+                "repsPerSet": 3,
+                "restSecBetweenSets": 150
+            }
+        }
     },
     {
         "slug": "volume-bouldering-moderate",
@@ -1623,9 +2743,19 @@
         "riskFlags": [
             "high_skin_load"
         ],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nBuild technique + capacity by doing many moderate boulders with controlled rest.\n\n## Setup\n- Pick boulders you can do in 1–3 tries most of the time.\n- Aim for variety: slabs, overhangs, different holds.\n\n## How to do it\n- Target **12–20 boulders** total (or 45–60 minutes).\n- Rest ~**1–2 minutes** between attempts to keep moving quality high.\n- Stop if skin or fingers become the limiting factor.\n\n## Progression\n- Increase the number of quality climbs, not the difficulty.\n\n## Safety\n- Manage skin; avoid continuing once you start slipping due to splits.\n",
+        "cues": [
+            "Prioritize movement quality over ‘bagging’ volume.",
+            "Rest just enough to keep footwork precise.",
+            "Pick safe landings; avoid risky dynos when fatigued.",
+            "Track total sends/tries for progression."
+        ],
+        "commonMistakes": [
+            "Going too hard and turning it into limit bouldering.",
+            "Not resting at all and getting sloppy.",
+            "Repeating the same style and missing weaknesses.",
+            "Ignoring skin/finger fatigue and forcing more volume."
+        ],
         "protocolTags": [
             "volume"
         ],
@@ -1636,7 +2766,15 @@
                 "alt": "Volume bouldering",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 15,
+                "repsPerSet": 1,
+                "restSecBetweenSets": 90
+            }
+        }
     },
     {
         "slug": "resting-positions-practice",
@@ -1648,9 +2786,19 @@
             "climbing_wall"
         ],
         "riskFlags": [],
-        "instructionsMarkdown": "TODO",
-        "cues": [],
-        "commonMistakes": [],
+        "instructionsMarkdown": "## Goal\nRehearse no-hands / shake-out rests: find positions, relax grip, and recover efficiently.\n\n## Setup\n- Pick very easy terrain (you should be able to talk while climbing).\n- Decide the one thing you’re focusing on for the set (e.g. silent feet).\n\n## How to do it\n1. Perform **4 climbs/laps** focusing on the drill constraint.\n2. Rest **2–2 min**.\n3. Repeat for **3 sets**.\n\n## Progression\n- Keep difficulty easy; progress by improving precision/consistency, not by going harder.\n\n## Safety\n- Stay well within your limit; drills are about skill, not strain.\n",
+        "cues": [
+            "Go easy enough that you can execute perfectly.",
+            "One focus at a time—don’t multitask cues.",
+            "Slow down at cruxy foot placements.",
+            "Review what went well after each lap."
+        ],
+        "commonMistakes": [
+            "Choosing terrain that’s too hard and losing the drill quality.",
+            "Rushing and turning it into cardio.",
+            "Ignoring body position and overgripping.",
+            "Doing so much volume that skin/fingers become the limiter."
+        ],
         "protocolTags": [
             "drill"
         ],
@@ -1661,6 +2809,14 @@
                 "alt": "Rest positions",
                 "sortOrder": 0
             }
-        ]
+        ],
+        "protocol": {
+            "kind": "weights_reps_sets",
+            "default": {
+                "sets": 3,
+                "repsPerSet": 4,
+                "restSecBetweenSets": 120
+            }
+        }
     }
 ]
