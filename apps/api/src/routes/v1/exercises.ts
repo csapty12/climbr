@@ -22,6 +22,7 @@ export const exerciseRoutes: FastifyPluginAsync = async (fastify) => {
     server.get('/:id', async (request) => {
         const { id } = request.params as { id: string };
         const result = await exerciseService.getExercise(id);
+
         return result;
     });
 
